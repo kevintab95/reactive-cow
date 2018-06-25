@@ -1,0 +1,146 @@
+body {
+  background: #00ced1;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.terminal-window {
+  height: 510px;
+  width: auto;
+  margin: 5% 25% 0 25%;
+  padding-left: 10px;
+}
+
+.terminal {
+  height: 500px;
+  text-align: left;
+  width: auto;
+  background-color: #30353a;
+  overflow: auto;
+  padding-left: 10px;
+  border-radius: 0 0 8px 8px;
+  color: white;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+}
+
+.terminal-window header .button {
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.terminal-window header .button.red {
+    background: #e75448;
+}
+
+.terminal-window header .button.yellow {
+    background: #e5c30f;
+}
+
+.terminal-window header .button.green {
+    background: #3bb662;
+}
+
+.cursor {
+  color: white;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+.invisible-input {
+  border: 0;
+  background-color: black;
+  color: transparent;
+  text-shadow: 0 0 0 white;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+.terminal-window header {
+    background: #e0e8f0;
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    padding-left: 10px;
+}
