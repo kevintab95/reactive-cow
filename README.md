@@ -1,5 +1,6 @@
 # reactive-cow
-Companion app for intro-to-react presentation. Type `help` to get started. :slightly_smiling_face:
+Companion app for intro-to-react presentation -- [live demo](https://reactive-cow.herokuapp.com/). 
+Type `help` to get started. :slightly_smiling_face:
 
 ## How to install
 1. Run `npm install` to install all dependencies.
